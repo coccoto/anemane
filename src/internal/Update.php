@@ -1,6 +1,6 @@
 <?php
 
-namespace coccoto\crud\internal;
+namespace coccoto\dotcrud\internal;
 
 final class Update extends Component {
 

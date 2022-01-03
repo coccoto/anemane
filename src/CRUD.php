@@ -1,8 +1,8 @@
 <?php
 
-namespace coccoto\crud;
+namespace coccoto\dotcrud;
 
-use coccoto\crud\internal as internal;
+use coccoto\dotcrud\internal as internal;
 
 final class CRUD extends Fetch {
 

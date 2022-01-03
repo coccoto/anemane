@@ -7,8 +7,8 @@
 ```php
 $sql = "UPDATE list SET subject='math', score=80 WHERE class=5 AND name='michael'"
 
-$crud = new coccoto\crud\CRUD();
-$crud->run($sql);
+$dotcrud = new coccoto\dotcrud\CRUD();
+$dotcrud->run($sql);
 ```
 
 - 2

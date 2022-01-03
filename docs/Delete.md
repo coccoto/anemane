@@ -10,8 +10,8 @@ $data = [
     ],
 ];
 
-$crud = new coccoto\crud\CRUD();
-$crud->delete('products', $data);
+$dotcrud = new coccoto\dotcrud\CRUD();
+$dotcrud->delete('products', $data);
 ```
 
 ### Instructions executed by this operation

@@ -1,10 +1,10 @@
 {
-    "name": "coccoto/crud",
+    "name": "coccoto/dotcrud",
     "license": "MIT",
     "authors": [
         {
             "name": "cocoto",
-            "email": "marilun.lune@gmail.com"
+            "email": "soprano.lune@gmail.com"
         }
     ],
     "require": {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "coccoto\\crud\\": "src/"
+            "coccoto\\dotcrud\\": "src/"
         }
     }
 }

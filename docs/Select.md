@@ -12,9 +12,9 @@ $data = [
     ],
 ];
 
-$crud = new coccoto\crud\CRUD();
-$crud->select('list', $data);
-$result = $crud->stmt->fetchAll();
+$dotcrud = new coccoto\dotcrud\CRUD();
+$dotcrud->select('list', $data);
+$result = $dotcrud->stmt->fetchAll();
 ```
 
 ### Instructions executed by this operation
@@ -36,9 +36,9 @@ $data = [
     ],
 ];
 
-$crud = new coccoto\crud\CRUD();
-$crud->select('list', $data);
-$result = $crud->stmt->fetchAll();
+$dotcrud = new coccoto\dotcrud\CRUD();
+$dotcrud->select('list', $data);
+$result = $dotcrud->stmt->fetchAll();
 ```
 
 ### Instructions executed by this operation
