@@ -10,8 +10,8 @@ $data = [
     ],
 ];
 
-$dotcrud = new coccoto\dotcrud\CRUD();
-$dotcrud->insert('user', $data);
+$selectdb = new coccoto\selectdb\CRUD();
+$selectdb->insert('user', $data);
 ```
 
 ### Instructions executed by this operation

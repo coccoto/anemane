@@ -1,8 +1,8 @@
 <?php
 
-namespace coccoto\dotcrud;
+namespace coccoto\selectdb;
 
-use coccoto\dotcrud\internal as internal;
+use coccoto\selectdb\internal as internal;
 
 final class CRUD extends Fetch {
 

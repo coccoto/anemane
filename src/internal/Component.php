@@ -1,6 +1,6 @@
 <?php
 
-namespace coccoto\dotcrud\internal;
+namespace coccoto\selectdb\internal;
 
 abstract class Component {
 

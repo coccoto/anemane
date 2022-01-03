@@ -1,4 +1,4 @@
-# dotcrud
+# selectdb
 
 A little support for database operations.
 
@@ -9,7 +9,7 @@ A little support for database operations.
 ## Installation
 
 ```sh
-$ composer require coccoto/dotcrud
+$ composer require coccoto/selectdb
 ```
 
 ## Usage
@@ -28,20 +28,20 @@ $connInfo = [
     'pass' => '',
 ];
 
-coccoto\dotcrud\CRUD::push($connInfo);
+coccoto\selectdb\CRUD::push($connInfo);
 ```
 
 ## Example
 
-- ### [SELECT.md](https://github.com/coccoto/dotcrud/blob/master/docs/Select.md)
+- ### [SELECT.md](https://github.com/coccoto/selectdb/blob/master/docs/Select.md)
 
-- ### [INSERT.md](https://github.com/coccoto/dotcrud/blob/master/docs/Insert.md)
+- ### [INSERT.md](https://github.com/coccoto/selectdb/blob/master/docs/Insert.md)
 
-- ### [UPDATE.md](https://github.com/coccoto/dotcrud/blob/master/docs/Update.md)
+- ### [UPDATE.md](https://github.com/coccoto/selectdb/blob/master/docs/Update.md)
 
-- ### [DELETE.md](https://github.com/coccoto/dotcrud/blob/master/docs/Delete.md)
+- ### [DELETE.md](https://github.com/coccoto/selectdb/blob/master/docs/Delete.md)
 
-- ### [QUERY.md](https://github.com/coccoto/dotcrud/blob/master/docs/Query.md)
+- ### [QUERY.md](https://github.com/coccoto/selectdb/blob/master/docs/Query.md)
 
 ## License
 

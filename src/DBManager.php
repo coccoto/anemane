@@ -1,6 +1,6 @@
 <?php
 
-namespace coccoto\dotcrud;
+namespace coccoto\selectdb;
 
 abstract class DBManager {
 

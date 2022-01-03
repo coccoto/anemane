@@ -1,5 +1,5 @@
 {
-    "name": "coccoto/dotcrud",
+    "name": "coccoto/selectdb",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "coccoto\\dotcrud\\": "src/"
+            "coccoto\\selectdb\\": "src/"
         }
     }
 }

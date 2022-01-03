@@ -14,8 +14,8 @@ $data = [
     ],
 ];
 
-$dotcrud = new coccoto\dotcrud\CRUD();
-$dotcrud->update('list', $data);
+$selectdb = new coccoto\selectdb\CRUD();
+$selectdb->update('list', $data);
 ```
 
 ### Instructions executed by this operation
